@@ -1,7 +1,7 @@
 # Umbraco Image Cropper Extensions
 
 [![NuGet release](https://img.shields.io/nuget/v/Our.Umbraco.Extensions.ImageCropper.svg)](https://www.nuget.org/packages/Our.Umbraco.Extensions.ImageCropper/)
-[![Our Umbraco project page](https://img.shields.io/badge/our-umbraco-orange.svg)](https://our.umbraco.com/projects/website-utilities/image-cropper-extensions/)
+[![Our Umbraco project page](https://img.shields.io/badge/our-umbraco-orange.svg)](https://our.umbraco.com/packages/developer-tools/image-cropper-extensions/)
 
 ## Getting started
 
@@ -13,7 +13,7 @@ Image Cropper Extensions is available from Our Umbraco, NuGet, or as a manual do
 
 #### Our Umbraco repository
 
-You can find a downloadable package on the [Our Umbraco](https://our.umbraco.com/projects/website-utilities/image-cropper-extensions/) site.
+You can find a downloadable package on the [Our Umbraco](https://our.umbraco.com/packages/developer-tools/image-cropper-extensions/) site.
 
 #### NuGet package repository
 
