@@ -35,16 +35,22 @@ public enum ImageCrops
 }
 ```
 
-It is also possible to define a crop width and height via the attribute, like this:
-
-```
-[Crop("myCropAlias", width = 900, height = 600)]
-```
-
 Properties from the `enum` can be passed into the `GetCropUrl` extension method to generate crop URLs based on the configured settings:
 
 ```
 @image.GetCropUrl(ImageCrops.Hero)
+```
+
+Alternatively with the URL extension method:
+
+```
+@Url.GetCropUrl(image, ImageCrops.Hero)
+```
+
+The width and height of a crop can also be set via the `Crop` attribute, like this:
+
+```
+[Crop("myCropAlias", width = 900, height = 600)]
 ```
 
 ## Contribution guidelines
