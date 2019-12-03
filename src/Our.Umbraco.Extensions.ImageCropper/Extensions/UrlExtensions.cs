@@ -1,10 +1,10 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 using Our.Umbraco.Extensions.ImageCropper.Helpers;
+using Umbraco.Core;
 using Umbraco.Core.Models.PublishedContent;
 using Umbraco.Web;
 using Umbraco.Web.Models;
-using Constants = Umbraco.Core.Constants;
 
 namespace Our.Umbraco.Extensions.ImageCropper.Extensions
 {
