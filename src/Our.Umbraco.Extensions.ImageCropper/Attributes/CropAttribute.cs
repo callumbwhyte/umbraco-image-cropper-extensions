@@ -7,15 +7,13 @@ namespace Our.Umbraco.Extensions.ImageCropper.Attributes
     {
         public string Alias { get; set; }
 
-        public int? Width { get; set; }
+        public int Width { get; set; }
 
-        public int? Height { get; set; }
+        public int Height { get; set; }
 
-        public CropAttribute(string alias, int? width = null, int? height = null)
+        public CropAttribute(string alias)
         {
             Alias = alias;
-            Width = width;
-            Height = height;
         }
     }
 }

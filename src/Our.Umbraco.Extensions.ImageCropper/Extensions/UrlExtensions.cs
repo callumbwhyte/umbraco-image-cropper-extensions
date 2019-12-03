@@ -31,12 +31,18 @@ namespace Our.Umbraco.Extensions.ImageCropper.Extensions
 
             if (width.HasValue == false)
             {
-                width = crop.Width;
+                if (crop.Width > 0)
+                {
+                    width = crop.Width;
+                }
             }
 
             if (height.HasValue == false)
             {
-                height = crop.Height;
+                if (crop.Height > 0)
+                {
+                    height = crop.Height;
+                }
             }
 
             return urlHelper.GetCropUrl(mediaItem, width, height, propertyAlias, alias, quality, imageCropMode, imageCropAnchor, preferFocalPoint, useCropDimensions, cacheBuster, furtherOptions, ratioMode, upScale, htmlEncode);
