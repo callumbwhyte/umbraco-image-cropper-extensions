@@ -4,7 +4,7 @@ using Umbraco.Core.Models.PublishedContent;
 using Umbraco.Web;
 using Umbraco.Web.Models;
 
-namespace Our.Umbraco.Extensions.ImageCropper.Extensions
+namespace Our.Umbraco.Extensions.ImageCropper
 {
     public static class ImageCropperExtensions
     {
