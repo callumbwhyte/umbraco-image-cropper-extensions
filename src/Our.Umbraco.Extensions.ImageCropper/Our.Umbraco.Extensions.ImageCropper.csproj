@@ -5,7 +5,7 @@
     <Version Condition="'$(BUILD_BUILDNUMBER)' != ''">$(BUILD_BUILDNUMBER)</Version>
     <Description></Description>
     <Authors>Callum Whyte</Authors>
-    <Copyright>Copyright © 2019 Callum Whyte, and other contributors</Copyright>
+    <Copyright>Copyright © 2020 Callum Whyte, and other contributors</Copyright>
     <PackageLicenseUrl>https://github.com/callumbwhyte/umbraco-image-cropper-extensions/blob/master/LICENSE.md</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/callumbwhyte/umbraco-image-cropper-extensions</PackageProjectUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/callumbwhyte/umbraco-image-cropper-extensions/master/docs/img/logo.png</PackageIconUrl>

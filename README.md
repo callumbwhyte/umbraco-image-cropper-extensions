@@ -64,6 +64,6 @@ The package logo uses the [Crop](https://thenounproject.com/term/search/3090432/
 
 ## License
 
-Copyright &copy; 2019 [Callum Whyte](https://callumwhyte.com/), and other contributors
+Copyright &copy; 2020 [Callum Whyte](https://callumwhyte.com/), and other contributors
 
 Licensed under the [MIT License](LICENSE.md).
