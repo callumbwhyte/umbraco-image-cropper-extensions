@@ -47,7 +47,7 @@ Alternatively with the URL extension method:
 The width and height of a crop can also be set via the `Crop` attribute, like this:
 
 ```
-[Crop("myCropAlias", width = 900, height = 600)]
+[Crop("myCropAlias", Width = 900, Height = 600)]
 ```
 
 ## Contribution guidelines
@@ -64,6 +64,6 @@ The package logo uses the [Crop](https://thenounproject.com/term/search/3090432/
 
 ## License
 
-Copyright &copy; 2020 [Callum Whyte](https://callumwhyte.com/), and other contributors
+Copyright &copy; 2022 [Callum Whyte](https://callumwhyte.com/), and other contributors
 
 Licensed under the [MIT License](LICENSE.md).

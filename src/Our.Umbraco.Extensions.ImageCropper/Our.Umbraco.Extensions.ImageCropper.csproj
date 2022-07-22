@@ -5,13 +5,13 @@
     <Version Condition="'$(BUILD_BUILDNUMBER)' != ''">$(BUILD_BUILDNUMBER)</Version>
     <Description></Description>
     <Authors>Callum Whyte</Authors>
-    <Copyright>Copyright © 2020 Callum Whyte, and other contributors</Copyright>
-    <PackageLicenseUrl>https://github.com/callumbwhyte/umbraco-image-cropper-extensions/blob/master/LICENSE.md</PackageLicenseUrl>
+    <Copyright>Copyright © 2022 Callum Whyte, and other contributors</Copyright>
+    <PackageLicenseUrl>https://github.com/callumbwhyte/umbraco-image-cropper-extensions/blob/main/LICENSE.md</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/callumbwhyte/umbraco-image-cropper-extensions</PackageProjectUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/callumbwhyte/umbraco-image-cropper-extensions/master/docs/img/logo.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/callumbwhyte/umbraco-image-cropper-extensions/main/docs/img/logo.png</PackageIconUrl>
     <RepositoryUrl>https://github.com/callumbwhyte/umbraco-image-cropper-extensions</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
-    <PackageTags>Umbraco</PackageTags>
+    <PackageTags>umbraco images cropper image-processor</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
