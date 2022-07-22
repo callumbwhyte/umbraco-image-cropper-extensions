@@ -6,7 +6,7 @@ using Umbraco.Web.Models;
 
 namespace Our.Umbraco.Extensions.ImageCropper
 {
-    public static class ImageCropperExtensions
+    public static class IPublishedContentExtensions
     {
         public static string GetCropUrl<T>(this IPublishedContent mediaItem, T cropAlias)
             where T : struct
@@ -25,8 +25,6 @@ namespace Our.Umbraco.Extensions.ImageCropper
         {
             var crop = CropHelper.GetCropAttribute(cropAlias);
 
-            var alias = string.IsNullOrWhiteSpace(crop.Alias) == false ? crop.Alias : null;
-
             if (width.HasValue == false)
             {
                 if (crop.Width > 0)
@@ -43,7 +41,7 @@ namespace Our.Umbraco.Extensions.ImageCropper
                 }
             }
 
-            return mediaItem.GetCropUrl(width, height, propertyAlias, alias, quality, imageCropMode, imageCropAnchor, preferFocalPoint, useCropDimensions, cacheBuster, furtherOptions, ratioMode, upScale);
+            return mediaItem.GetCropUrl(width, height, propertyAlias, crop.Alias, quality, imageCropMode, imageCropAnchor, preferFocalPoint, useCropDimensions, cacheBuster, furtherOptions, ratioMode, upScale);
         }
     }
 }
